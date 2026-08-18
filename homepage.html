@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Defines the character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Makes the website responsive on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Travel Blog | Homepage</title>
+
+    <style>
+
+        /* ==========================
+           GENERAL PAGE STYLING
+        =========================== */
+
+        body{
+            margin:0;
+            padding:0;
+            font-family:Arial, Helvetica, sans-serif;
+            background:#eef5ff;
+            color:#333;
+        }
+
+        header{
+
+            background:#0b5394;
+            color:white;
+            text-align:center;
+            padding:30px;
+
+        }
+
+        header h1{
+
+            margin:0;
+            font-size:40px;
+
+        }
+
+        header p{
+
+            font-size:18px;
+
+        }
+
+        /* ==========================
+           NUMBER BUTTONS
+        =========================== */
+
+        .button-container{
+
+            display:flex;
+            justify-content:center;
+            gap:25px;
+            margin:40px;
+
+        }
+
+        .circle{
+
+            width:80px;
+            height:80px;
+            border-radius:50%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-size:30px;
+            font-weight:bold;
+            color:white;
+            text-decoration:none;
+
+            transition:0.4s;
+
+        }
+
+        .circle:hover{
+
+            transform:scale(1.15);
+            box-shadow:0px 5px 15px rgba(0,0,0,0.4);
+
+        }
+
+        .one{
+
+            background:#ff4d4d;
+
+        }
+
+        .two{
+
+            background:#1f78d1;
+
+        }
+
+        .three{
+
+            background:#2ecc40;
+
+        }
+
+        .four{
+
+            background:#ff9800;
+
+        }
+
+        /* ==========================
+           DESTINATION SECTIONS
+        =========================== */
+
+        section{
+
+            width:80%;
+            margin:auto;
+            background:white;
+            margin-bottom:40px;
+            padding:25px;
+            border-radius:10px;
+            box-shadow:0px 2px 10px rgba(0,0,0,0.1);
+
+        }
+
+        h2{
+
+            color:#0b5394;
+
+        }
+
+        ol{
+
+            color:#8B0000;
+            font-weight:bold;
+
+        }
+
+        ul{
+
+            color:#006400;
+            font-weight:normal;
+
+        }
+
+        footer{
+
+            text-align:center;
+            padding:20px;
+            background:#0b5394;
+            color:white;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<!-- ==========================
+     PAGE HEADER
+========================== -->
+
+<header>
+
+<h1>🌍 Travel Blog</h1>
+
+<p>Explore Amazing Destinations Around the World</p>
+
+</header>
+
+<!-- ==========================
+     NAVIGATION BUTTONS
+========================== -->
+
+<div class="button-container">
+
+<a href="#europe" class="circle one">1</a>
+
+<a href="#asia" class="circle two">2</a>
+
+<a href="#america" class="circle three">3</a>
+
+<a href="#africa" class="circle four">4</a>
+
+</div>
+
+<!-- ==========================
+     EUROPE
+========================== -->
+
+<section id="europe">
+
+<h2>1. Europe</h2>
+
+<ol>
+
+<li>France
+
+<ul>
+
+<li>Paris</li>
+
+<li>Lyon</li>
+
+<li>Nice</li>
+
+</ul>
+
+</li>
+
+<li>Italy
+
+<ul>
+
+<li>Rome</li>
+
+<li>Venice</li>
+
+<li>Milan</li>
+
+</ul>
+
+</li>
+
+<li>Greece
+
+<ul>
+
+<li>Athens</li>
+
+<li>Santorini</li>
+
+<li>Thessaloniki</li>
+
+</ul>
+
+</li>
+
+</ol>
+
+</section>
+
+<!-- ==========================
+     ASIA
+========================== -->
+
+<section id="asia">
+
+<h2>2. Asia</h2>
+
+<ol>
+
+<li>Japan
+
+<ul>
+
+<li>Tokyo</li>
+
+<li>Kyoto</li>
+
+<li>Osaka</li>
+
+</ul>
+
+</li>
+
+<li>China
+
+<ul>
+
+<li>Beijing</li>
+
+<li>Shanghai</li>
+
+<li>Xi'an</li>
+
+</ul>
+
+</li>
+
+<li>India
+
+<ul>
+
+<li>New Delhi</li>
+
+<li>Mumbai</li>
+
+<li>Jaipur</li>
+
+</ul>
+
+</li>
+
+</ol>
+
+</section>
+
+<!-- ==========================
+     AMERICA
+========================== -->
+
+<section id="america">
+
+<h2>3. America</h2>
+
+<ol>
+
+<li>USA
+
+<ul>
+
+<li>New York City</li>
+
+<li>Los Angeles</li>
+
+<li>Chicago</li>
+
+</ul>
+
+</li>
+
+<li>Brazil
+
+<ul>
+
+<li>Rio de Janeiro</li>
+
+<li>São Paulo</li>
+
+<li>Salvador</li>
+
+</ul>
+
+</li>
+
+<li>Canada
+
+<ul>
+
+<li>Toronto</li>
+
+<li>Vancouver</li>
+
+<li>Montreal</li>
+
+</ul>
+
+</li>
+
+</ol>
+
+</section>
+
+<!-- ==========================
+     AFRICA
+========================== -->
+
+<section id="africa">
+
+<h2>4. Africa</h2>
+
+<ol>
+
+<li>South Africa
+
+<ul>
+
+<li>Cape Town</li>
+
+<li>Johannesburg</li>
+
+<li>Durban</li>
+
+</ul>
+
+</li>
+
+<li>Egypt
+
+<ul>
+
+<li>Cairo</li>
+
+<li>Luxor</li>
+
+<li>Sharm El Sheikh</li>
+
+</ul>
+
+</li>
+
+<li>Morocco
+
+<ul>
+
+<li>Marrakech</li>
+
+<li>Casablanca</li>
+
+<li>Fez</li>
+
+</ul>
+
+</li>
+
+</ol>
+
+</section>
+
+<footer>
+
+<p>© 2026 Travel Blog | Web Programming I Assignment</p>
+
+</footer>
+
+</body>
+
+</html>
